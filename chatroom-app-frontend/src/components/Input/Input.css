@@ -1,0 +1,58 @@
+.form {
+	display: flex;
+	padding-inline: 4%;
+	padding-block: 3%;
+}
+
+.input-chat {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border: 1px solid var(--border-color);
+	border-radius: 100px;
+	padding: 10px;
+}
+
+.input-chat:focus-within {
+	border: 1px solid var(--primary-color);
+}
+
+.input {
+	border: none;
+	border-radius: 0;
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: var(--just-gray);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+	color: var(--just-dark);
+}
+
+.send-btn {
+	color: var(--pure-white) !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: var(--primary-color);
+	border: none;
+	aspect-ratio: 1 / 1;
+	height: 4rem;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.send-btn svg {
+	width: 24px;
+	height: auto;
+	margin: 0 auto;
+}

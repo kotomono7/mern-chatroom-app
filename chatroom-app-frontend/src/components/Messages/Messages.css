@@ -1,0 +1,13 @@
+.messages {
+	height: 30rem;
+	width: 100%;
+	overflow: auto;
+	padding-top: 5px;
+	padding-bottom: 5%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}

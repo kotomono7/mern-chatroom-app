@@ -1,0 +1,29 @@
+:root {
+	--primary-color: #5db075;
+	--secondary-color: #f6f6f6;
+	--border-color: #e8e8e8;
+	--content-color: #353535;
+	--pure-white: #ffffff;
+	--pure-black: #000000;
+	--pure-red: #ff0000;
+	--just-gray: #bdbdbd;
+	--just-dark: #1a1a1d;
+	--error-text: #ff0033;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
